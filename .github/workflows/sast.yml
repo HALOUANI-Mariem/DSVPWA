@@ -36,7 +36,7 @@ jobs:
           ./sonar-scanner-*/bin/sonar-scanner \
             -Dsonar.projectKey=tp-sast \
             -Dsonar.sources=. \
-            -Dsonar.host.url=https://sidewardly-unreverenced-kyra.ngrok-free.app \
+            -Dsonar.host.url=https://sidewardly-unreverenced-kyra.ngrok-free.dev \
             -Dsonar.login=$SONAR_TOKEN \
             -X
 
