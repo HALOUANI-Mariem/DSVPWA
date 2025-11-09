@@ -16,7 +16,7 @@ with:
 distribution: 'temurin'
 java-version: '17'
 
-- name: Cache SonarQube packages
+- name: Cache
 uses: actions/cache@v4.3.0
 with:
 path: ~/.sonar/cache
